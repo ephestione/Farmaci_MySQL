@@ -1,5 +1,5 @@
 # Farmaci_MySQL
-Creazione tabella database con lista farmaci italiani fasce A C H
+Creazione di una tabella di database MySQL contenente la lista dei farmaci italiani nelle fasce A C H.
 
 Per una applicazione interna, avevo bisogno di un elenco dei farmaci italiani che specificasse nome commerciale e principio attivo, e sono rimasto sorpreso nel non averne trovato uno semplice e comprensivo, per questo ho scaricato gli elenchi dal sito AIFA, link attuali https://www.aifa.gov.it/liste-farmaci-a-h e http://www.agenziafarmaco.gov.it/content/aggiornamento-farmaci-di-fascia-%E2%80%9Cc%E2%80%9D(ma potrebbero cambiare) e ho scritto una routine in PHP per inserire i farmaci nel database.
 
@@ -12,3 +12,5 @@ Questi i passaggi:
 - Eseguire il codice PHP
 
 Il codice PHP è stato estrapolato e "ordinato" direttamente dal codice originale della mia applicazione, quindi si presuppone che siate sufficientemente pratici per adattarlo alle vostre esigenze, e scoprire anche eventuali errori!
+
+Per comodità viene fornito anche il file SQL dell'intera tabella, che però ovviamente dovrete aggiornare voi stessi un domani all'occorrenza.
